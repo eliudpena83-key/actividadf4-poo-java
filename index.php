@@ -1,3 +1,5 @@
+// Este archivo se ejecuta para mostrar en consola la información de los estudiantes 
+// y su estatus académico basado en su promedio.
 <?php
 class Estudiante {
     // Atributos
@@ -28,7 +30,7 @@ class Estudiante {
     }
 }
 
-// Instanciación de objetos
+// Instanciación de objetos -- Insumos
 $est1 = new Estudiante("A001", "Eliud Peña", "Ingeniería de Software", 92.5);
 $est2 = new Estudiante("A002", "María García", "Sistemas Computacionales", 65.0);
 
